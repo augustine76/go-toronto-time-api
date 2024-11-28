@@ -1,0 +1,6 @@
+USE time_logger;
+
+CREATE TABLE IF NOT EXISTS time_log (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  timestamp DATETIME NOT NULL
+);
